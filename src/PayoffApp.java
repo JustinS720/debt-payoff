@@ -33,7 +33,9 @@ public class PayoffApp {
             System.out.println(name + ": " + "APR: " + aprString + " Balance: " + balanceString);
         }
         Collections.sort(aprs, Collections.reverseOrder());
+        Collections.sort(cards);
 
         System.out.println(aprs);
+        System.out.println(cards);
     }
 }
